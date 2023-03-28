@@ -4,12 +4,19 @@
 
 <h1 align="center">Design</h2>
 
-<h2>Desktop</h2>
-![Desktop](/design/desktop_screen.png)
-<h2>Tablet</h2>
-![Tablet](/design/tablet_screen.png)
-<h2>Mobile</h2>
-![Phone](/design/phone_screen.png)
+<h2>Desktop:</h2>
+
+![Desktop](./design/desktop_screen.png)
+
+<h2>Tablet:</h2>
+
+![Tablet](./design/tablet_screen.png)
+
+<h2>Mobile:</h2>
+
+![Phone](./design/phone_screen.png)
+
+---
 
 <h2 align="center">(1) Starting The Project</h2>
 

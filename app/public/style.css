@@ -1,0 +1,18 @@
+body {
+  background-image: url("../../images/background-stars.svg");
+  background-repeat: no-repeat;
+  font-family: "Oswald", sans-serif;
+  background-color: #070724;
+}
+main {
+  height: calc(80% - 74px);
+  justify-content: center;
+}
+
+.change-image.select {
+  background-color: lightblue;
+  box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px lightblue,
+    0 0 30px lightblue, 0 0 40px lightblue, 0 0 50px lightblue;
+  -webkit-animation: blink 0.7s infinite alternate;
+  animation: blink 0.7s infinite alternate;
+}

@@ -3,10 +3,142 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Css Links -->
     <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+
     <title>Planets Facts</title>
   </head>
-  <body>
-    <h1 class="bg-red-700 text-9xl">Hello World</h1>
+  <body class="h-screen">
+    <header class="header flex justify-between p-4 border-b-2">
+      <h1 class="flex-1 text-4xl font-bold uppercase text-white select-none">
+        the planets
+      </h1>
+      <ul class="planets-list flex justify-between flex-1 items-cente">
+        <li
+          class="planet uppercase text-base font-semibold cursor-pointer text-white select-none leading-8"
+        >
+          mercury
+        </li>
+        <li
+          class="planet uppercase text-base font-semibold cursor-pointer text-white select-none leading-8"
+        >
+          venus
+        </li>
+        <li
+          class="planet uppercase text-base font-semibold cursor-pointer text-white select-none leading-8"
+        >
+          earth
+        </li>
+        <li
+          class="planet uppercase text-base font-semibold cursor-pointer text-white select-none leading-8"
+        >
+          mars
+        </li>
+        <li
+          class="planet uppercase text-base font-semibold cursor-pointer text-white select-none leading-8"
+        >
+          jupiter
+        </li>
+        <li
+          class="planet uppercase text-base font-semibold cursor-pointer text-white select-none leading-8"
+        >
+          saturn
+        </li>
+        <li
+          class="planet uppercase text-base font-semibold cursor-pointer text-white select-none leading-8"
+        >
+          uranus
+        </li>
+        <li
+          class="planet uppercase text-base font-semibold cursor-pointer text-white select-none leading-8"
+        >
+          neptune
+        </li>
+      </ul>
+    </header>
+    <main class="flex justify-between items-center w-10/12 m-auto mercury">
+      <div class="planets-imgs">
+        <img src="../../images/planet-mercury.svg" alt="" class="w-25 h-1/2" />
+      </div>
+      <div class="planets-details flex flex-col w-1/2">
+        <div class="text-info">
+          <h1
+            class="planet-name text-4xl uppercase font-semibold text-white"
+            id="name"
+          >
+            mercury
+          </h1>
+          <p
+            class="about-planet-text text-xl font-medium mb-1 text-white leading-10"
+          >
+            Mercury is the smallest planet in the Solar System and the closest
+            to the Sun. Its orbit around the Sun takes 87.97 Earth days, the
+            shortest of all the Sun's planets. Mercury is one of four
+            terrestrial planets in the Solar System, and is a rocky body like
+            Earth.
+          </p>
+          <a
+            href="https://en.wikipedia.org/wiki/Mercury_(planet)"
+            target="_blank"
+            class="source font-bold text-lg text-slate-500 flex justify-between w-36 mb-5"
+            >Source Wikipedia <img src="../../images/icon-source.svg" alt=""
+          /></a>
+        </div>
+        <div class="image-type flex flex-col justify-center">
+          <button
+            class="change-image text-white hover:bg-slate-200 transition border-4 border-black p-3 text-lg uppercase font-semibold mb-2 overview"
+          >
+            overview
+          </button>
+          <button
+            class="change-image text-white hover:bg-slate-200 transition border-4 border-black p-3 text-lg uppercase font-semibold mb-2 intertanl-strucutre"
+          >
+            internal structure
+          </button>
+          <button
+            class="change-image text-white hover:bg-slate-200 transition border-4 border-black p-3 text-lg uppercase font-semibold mb-2 surface-geology"
+          >
+            surface geology
+          </button>
+        </div>
+      </div>
+    </main>
+    <div class="facts grid grid-cols-4 gap-7 w-10/12 m-auto">
+      <div
+        class="fact border-2 border-cyan-50 text-white p-4 text-lg font-medium"
+      >
+        <span>Rotation Time</span>
+        <h2 class="fact-text rot-time">58.6 days</h2>
+      </div>
+      <div
+        class="fact border-2 border-cyan-50 text-white p-4 text-lg font-medium"
+      >
+        <span>Revolution Time</span>
+        <h2 class="fact-text rev-time">87.97 days</h2>
+      </div>
+      <div
+        class="fact border-2 border-cyan-50 text-white p-4 text-lg font-medium"
+      >
+        <span>Radius</span>
+        <h2 class="fact-text radius">2.439.7 km</h2>
+      </div>
+      <div
+        class="fact border-2 border-cyan-50 text-white p-4 text-lg font-medium"
+      >
+        <span>Average Temp</span>
+        <h2 class="fact-text temp">430 °C</h2>
+      </div>
+    </div>
+    <script src="../src/js/app.js"></script>
   </body>
 </html>
