@@ -18,10 +18,6 @@
 
 ---
 
-<h2 align="center">(1) Starting The Project</h2>
-
----
-
 <h2>First Of Here's My Files Organization</h2>
 
 - Planet Facts
@@ -91,7 +87,7 @@ npx tailwindcss -i ./app/src/input.css -o ./dist/output.css --watch
 You Will See Two New Files Generated: **./src/input.css**,**/dist/output.css**
 . This Is The Last Step, Now You Can Write Classes Like: **bg-red-700, text-9xl** In The Class Attribute Of Any HTML Element
 
-wAfter That The Files Tree Will Be Like This:
+After That The Files Tree Will Be Like This:
 
 - Planet Facts
 - app
@@ -105,3 +101,23 @@ wAfter That The Files Tree Will Be Like This:
 - dist
   - output.css
 - images
+
+---
+
+## What I Have Used:
+
+- Semantic HTML5 Markup
+- Flexbox
+- CSS Grid
+- TailwindCSS - For Styles
+- OOP In JS - For Organization
+
+---
+
+<h2>What I Learned From This Project:</h2>
+
+<p>In This Project I Used OOP, Which Realy Makes My Project a Lot Orginized, Also This Is The First Time I Use Tailwindcss, It Is a Great If You Don't Care About The Style Too Much, a Quick Note I Used a Litle Bit Of CSS To Make The Site More Responsive</p>
+
+---
+
+## You Can Find Me In <a href="https://www.frontendmentor.io/profile/akrambzgh">Front End Mentor<a>

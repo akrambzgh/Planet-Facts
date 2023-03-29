@@ -6,13 +6,54 @@ body {
 }
 main {
   height: calc(80% - 74px);
-  justify-content: center;
 }
-
+.planets-imgs img {
+  width: 70%;
+}
 .change-image.select {
   background-color: lightblue;
   box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px lightblue,
     0 0 30px lightblue, 0 0 40px lightblue, 0 0 50px lightblue;
   -webkit-animation: blink 0.7s infinite alternate;
   animation: blink 0.7s infinite alternate;
+}
+@media (max-width: 1023px) {
+  main {
+    flex-direction: column;
+    margin-top: 16px;
+    width: 91.666667%;
+    position: relative;
+    height: 100%;
+  }
+  .planets-details {
+    width: 100%;
+  }
+  .planets-imgs {
+    margin-top: 10px;
+  }
+  .facts {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+    width: 91.666667%;
+    margin-top: 2rem;
+    margin-bottom: 10px;
+  }
+  ul.planets-list {
+    position: absolute;
+    top: 74px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(15, 23, 42);
+    z-index: 30;
+    display: none;
+  }
+  li {
+    padding: 12px;
+    border-bottom: 2px solid black;
+    width: 100%;
+  }
+}
+ul.show {
+  display: flex;
 }

@@ -19,56 +19,65 @@
     <title>Planets Facts</title>
   </head>
   <body class="h-screen">
-    <header class="header flex justify-between p-4 border-b-2">
+    <header
+      class="header relative flex justify-between items-center p-4 border-b-2"
+    >
       <h1 class="flex-1 text-4xl font-bold uppercase text-white select-none">
         the planets
       </h1>
-      <ul class="planets-list flex justify-between flex-1 items-cente">
+      <div class="humberguer lg:hidden">
+        <img src="../../images/icon-hamburger.svg" alt="" />
+      </div>
+      <ul
         <li
-          class="planet uppercase text-base font-semibold cursor-pointer text-white select-none leading-8"
+          class="planet lg:border-none uppercase text-base font-semibold cursor-pointer text-white select-none leading-8"
         >
           mercury
         </li>
         <li
-          class="planet uppercase text-base font-semibold cursor-pointer text-white select-none leading-8"
+          class="planet lg:border-none uppercase text-base font-semibold cursor-pointer text-white select-none leading-8"
         >
           venus
         </li>
         <li
-          class="planet uppercase text-base font-semibold cursor-pointer text-white select-none leading-8"
+          class="planet lg:border-none uppercase text-base font-semibold cursor-pointer text-white select-none leading-8"
         >
           earth
         </li>
         <li
-          class="planet uppercase text-base font-semibold cursor-pointer text-white select-none leading-8"
+          class="planet lg:border-none uppercase text-base font-semibold cursor-pointer text-white select-none leading-8"
         >
           mars
         </li>
         <li
-          class="planet uppercase text-base font-semibold cursor-pointer text-white select-none leading-8"
+          class="planet lg:border-none uppercase text-base font-semibold cursor-pointer text-white select-none leading-8"
         >
           jupiter
         </li>
         <li
-          class="planet uppercase text-base font-semibold cursor-pointer text-white select-none leading-8"
+          class="planet lg:border-none uppercase text-base font-semibold cursor-pointer text-white select-none leading-8"
         >
           saturn
         </li>
         <li
-          class="planet uppercase text-base font-semibold cursor-pointer text-white select-none leading-8"
+          class="planet lg:border-none uppercase text-base font-semibold cursor-pointer text-white select-none leading-8"
         >
           uranus
         </li>
         <li
-          class="planet uppercase text-base font-semibold cursor-pointer text-white select-none leading-8"
+          class="planet lg:border-none uppercase text-base font-semibold cursor-pointer text-white select-none leading-8"
         >
           neptune
         </li>
       </ul>
     </header>
     <main class="flex justify-between items-center w-10/12 m-auto mercury">
-      <div class="planets-imgs">
-        <img src="../../images/planet-mercury.svg" alt="" class="w-25 h-1/2" />
+      <div class="planets-imgs flex justify-center items-center w-25 h-1/2">
+        <img
+          src="../../images/planet-mercury.svg"
+          alt=""
+          class="planet-img select-none"
+        />
       </div>
       <div class="planets-details flex flex-col w-1/2">
         <div class="text-info">
@@ -96,17 +105,17 @@
         </div>
         <div class="image-type flex flex-col justify-center">
           <button
-            class="change-image text-white hover:bg-slate-200 transition border-4 border-black p-3 text-lg uppercase font-semibold mb-2 overview"
+            class="change-image select-none text-white hover:bg-slate-200 transition border-4 border-black p-3 text-lg uppercase font-semibold mb-2 overview"
           >
             overview
           </button>
           <button
-            class="change-image text-white hover:bg-slate-200 transition border-4 border-black p-3 text-lg uppercase font-semibold mb-2 intertanl-strucutre"
+            class="change-image select-none text-white hover:bg-slate-200 transition border-4 border-black p-3 text-lg uppercase font-semibold mb-2 intertanl-strucutre"
           >
             internal structure
           </button>
           <button
-            class="change-image text-white hover:bg-slate-200 transition border-4 border-black p-3 text-lg uppercase font-semibold mb-2 surface-geology"
+            class="change-image select-none text-white hover:bg-slate-200 transition border-4 border-black p-3 text-lg uppercase font-semibold mb-2 surface-geology"
           >
             surface geology
           </button>
@@ -115,25 +124,25 @@
     </main>
     <div class="facts grid grid-cols-4 gap-7 w-10/12 m-auto">
       <div
-        class="fact border-2 border-cyan-50 text-white p-4 text-lg font-medium"
+        class="fact select-none border-2 border-cyan-50 text-white p-4 text-lg font-medium"
       >
         <span>Rotation Time</span>
         <h2 class="fact-text rot-time">58.6 days</h2>
       </div>
       <div
-        class="fact border-2 border-cyan-50 text-white p-4 text-lg font-medium"
+        class="fact select-none border-2 border-cyan-50 text-white p-4 text-lg font-medium"
       >
         <span>Revolution Time</span>
         <h2 class="fact-text rev-time">87.97 days</h2>
       </div>
       <div
-        class="fact border-2 border-cyan-50 text-white p-4 text-lg font-medium"
+        class="fact select-none border-2 border-cyan-50 text-white p-4 text-lg font-medium"
       >
         <span>Radius</span>
         <h2 class="fact-text radius">2.439.7 km</h2>
       </div>
       <div
-        class="fact border-2 border-cyan-50 text-white p-4 text-lg font-medium"
+        class="fact select-none border-2 border-cyan-50 text-white p-4 text-lg font-medium"
       >
         <span>Average Temp</span>
         <h2 class="fact-text temp">430 °C</h2>
